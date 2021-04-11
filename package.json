@@ -4,7 +4,8 @@
   "description": "Un chat bien perro",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "chat",
@@ -14,11 +15,25 @@
   "author": "Heriberto Hernandez",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body": "^5.1.0",
     "body-parser": "^1.19.0",
     "expres": "0.0.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.6",
-    "parser": "^0.1.4"
-  }
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.22",
+    "parser": "^0.1.4",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heribertolord96/BackendNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heribertolord96/BackendNodeJs/issues"
+  },
+  "homepage": "https://github.com/heribertolord96/BackendNodeJs#readme"
 }
